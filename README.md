@@ -1,6 +1,6 @@
-# **Multidomain Cross-Level Fusion Fault Diagnosis**
+# **Cross-Level Multidomain Fusion Fault Diagnosis**
 
-Rotating machinery plays a critical role in industrial systems, yet diagnosing faults in noisy environments remains challenging due to complex signal characteristics and diverse fault patterns. This study proposes a **Multidomain Cross-Level Fusion Fault Diagnosis**, utilizing various signal processing techniques to enhance robustness and accuracy in noisy conditions through the fusion of multimodal data.
+Rotating machinery plays a critical role in industrial systems, yet diagnosing faults in noisy environments remains challenging due to complex signal characteristics and diverse fault patterns. This study proposes a **Cross-Level Multidomain Fusion Fault Diagnosis**, utilizing various signal processing techniques to enhance robustness and accuracy in noisy conditions through the fusion of multimodal data.
 
 ## Key Features
 
@@ -62,7 +62,7 @@ After applying the signal processing techniques, the final data shape for each d
 
  ## Model Training and Testing Code
 
-The main code for the **multidomain Cross-Level Fusion project** is named **Model D**. Additionally, models using only time-domain data and those employing only feature-level fusion are included for comparison.
+The main code for the **cross-Level multidomain fusion project** is named **Model D**. Additionally, models using only time-domain data and those employing only feature-level fusion are included for comparison.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/cc052024-d72e-4eed-96cb-3c90f7fb7791" alt="Image" />
@@ -74,7 +74,7 @@ The code for both training and testing the model is organized within the `/Codes
 - **JOB2**: corresponds to the testing code, which also includes the noise testing.
 
 ## Model Results
-The following details summarize the results from the **Multidomain Cross-level fusion Fault Diagnosis** project. Each model's training history, noise test results, ROC curve, t-SNE visualization, and associated .h5 file are provided. **Each model was independently trained five times** to ensure robustness and reliability of the results. **The test results are presented as the average and standard deviation of the five runs**. For the ROC curve and t-SNE visualization, the model closest to the average performance was selected to present the results.
+The following details summarize the results from the **cross-level multidomain fusion fault diagnosis** project. Each model's training history, noise test results, ROC curve, t-SNE visualization, and associated .h5 file are provided. **Each model was independently trained five times** to ensure robustness and reliability of the results. **The test results are presented as the average and standard deviation of the five runs**. For the ROC curve and t-SNE visualization, the model closest to the average performance was selected to present the results.
 
 - **Model Result Files**: Located in `/Model results/Model name`
 
