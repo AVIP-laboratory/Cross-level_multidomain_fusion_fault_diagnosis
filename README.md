@@ -82,7 +82,7 @@ Inside each directory, you can find:
 - Train result
   - The model's `.h5` file
   - Training history graphs
-- test result
+- Test result
   - Confusion matrices
 - ROC result
   - Code for ROC
