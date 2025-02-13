@@ -4,14 +4,14 @@ Rotating machinery plays a critical role in industrial systems, yet diagnosing f
 
 ## Key Features
 
-- **Multimodal Input**: Vibration and current data are used as input sources, representing both time-domain and frequency-domain signals for comprehensive analysis.
+- **Multimodal Input**: Vibration and current data are used as input sources, incorporating various signal processing techniques for comprehensive analysis.
 
-- **Signal Processing Techniques**: Utilize various signal processing techniques, transforming the outputs into 2D images for effective feature extraction:
-  - **Time Domain**: Recurrence Plot (RP) is applied for capturing dynamic temporal patterns.
-  - **Frequency Domain**: Fast Fourier Transform (FFT) is used for frequency-domain feature extraction.
-  - **Time-Frequency Domain**: Mel-frequency cepstral coefficients (MFCC) are employed to capture both time and frequency features simultaneously.
+- **Signal Processing Techniques**: Apply various signal processing techniques for effective analysis.
+  - **Time Domain**: Recurrence Plot (RP) captures dynamic temporal patterns.
+  - **Frequency Domain**:  Fast Fourier Transform (FFT) extracts frequency-domain features.
+  - **Time-Frequency Domain**: Mel-frequency cepstral coefficients (MFCC) capture both time and frequency features simultaneously.
 
-- **Convolutional Feature Extraction**: Leverages convolutional neural networks (CNNs) specifically designed for image feature extraction, ensuring robust and effective feature processing across multiple domains.
+- **Convolutional Feature Extraction**: Leverages convolutional neural networks (CNNs) designed for image feature extraction, ensuring robust and effective feature processing across multiple domains.
 
 - **Cross-Level Fusion**: Utilizes both data-level fusion and feature-level fusion approach, enhancing fault diagnosis by combining raw data and extracted features.
 
@@ -85,8 +85,10 @@ Inside each directory, you can find:
 - test result
   - Confusion matrices
 - ROC result
+  - Code for ROC
   - One-vs-Rest (OvR) ROC curves for each class
 - t-SNE result
+  - Code for t-SNE
   - Prediction results `.npy file` from the final layer
   - t-SNE visualization
 
