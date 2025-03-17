@@ -71,7 +71,7 @@ if job == 1:
 
     # Train the model
     history = model.fit([Time_data, FFT_data, MFCC_data], Y_train,
-                        epochs=10,
+                        epochs=50,
                         batch_size=32,
                         validation_split=0.1,
                         validation_steps=4)
