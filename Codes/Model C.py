@@ -293,7 +293,7 @@ if job == 1:
     history = model.fit([Time_data_V, Time_data_C1, Time_data_C2, Time_data_C3,
                          FFT_data_V, FFT_data_C1, FFT_data_C2, FFT_data_C3,
                          MFCC_data_V, MFCC_data_C1, MFCC_data_C2, MFCC_data_C3,], Y_train,
-                         epochs=10,
+                         epochs=50,
                          batch_size=32,
                          validation_split=0.1,
                          validation_steps=4)
