@@ -15,7 +15,7 @@ from sklearn.metrics import ConfusionMatrixDisplay
 
 job = 1
 
-Model_name = 'Model-1'
+Model_name = 'Model-B2'
 
 Data_path = 'Project Data Path1'
 Result_path = 'Project Data Path2'
