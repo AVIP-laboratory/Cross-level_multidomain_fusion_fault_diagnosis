@@ -96,7 +96,7 @@ Inside each directory, you can find:
 The noise levels were set to 22.8, -16.9, -13.3, -10.8, -8.8, and -7.3 dB (ref=1). The model accuracy results for each noise level are presented in the figure below.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/9eef47ef-1849-49f8-8f75-286f8f2d5440" alt="Image" />
+  <img src="https://github.com/user-attachments/assets/92380fba-6fd6-4fc5-961a-16479cfb1f62" alt="Image" />
 </p>
 
 For additional details, you can explore the respective files in the specified directory.
