@@ -74,7 +74,7 @@ The code for both training and testing the model is organized within the `/Codes
 - **JOB2**: corresponds to the testing code, which also includes the noise testing.
 
 ## Model Results
-The following details summarize the results from the **cross-level multidomain fusion fault diagnosis** project. Each model's training history, noise test results, ROC curve, t-SNE visualization, and associated .h5 file are provided. **Each model was independently trained five times** to ensure robustness and reliability of the results. **The test results are presented as the average and standard deviation of the five runs**. For the ROC curve and t-SNE visualization, the model closest to the average performance was selected to present the results.
+The following details summarize the results from the **cross-level multidomain fusion fault diagnosis** project. Each model's training history, noise test results, ROC curve, t-SNE visualization, and associated .h5 file are provided. **Each model was independently trained five times** to ensure robustness and reliability of the results. **The test results are presented as the average and standard deviation of the ten runs**. For the ROC curve and t-SNE visualization, the model closest to the average performance was selected to present the results.
 
 - **Model Result Files**: Located in `/Model results/Model name`
 
